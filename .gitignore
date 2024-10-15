@@ -1,0 +1,33 @@
+ # Ignorar o diretório do ambiente virtual
+venv/
+env/
+
+# Ignorar configurações de IDEs
+.vscode/
+.idea/
+
+# Ignorar arquivos gerados por o sistema operacional
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Arquivos de logs e outros temporários
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.swn
+
+# Arquivos de cache e configuração do Python
+*.env
+*.venv
+*.egg-info/
+.eggs/
+
+# Ignorar dados e backup
+.DS_Store
+Thumbs.db
