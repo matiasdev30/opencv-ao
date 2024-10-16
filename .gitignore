@@ -1,4 +1,4 @@
- # Ignorar o diretório do ambiente virtual
+# Ignorar o diretório do ambiente virtual
 venv/
 env/
 
@@ -22,7 +22,7 @@ __pycache__/
 *.swo
 *.swn
 
-# Arquivos de cache e configuração do Python
+# Arquivos de cache e configuração do Python
 *.env
 *.venv
 *.egg-info/
@@ -31,3 +31,6 @@ __pycache__/
 # Ignorar dados e backup
 .DS_Store
 Thumbs.db
+
+# Ignorar dependências do Node.js
+node_modules/
