@@ -1,0 +1,16 @@
+{
+  "name": "opencv-ao",
+  "version": "1.0.0",
+  "description": "CV maker using AI, generating CVs based on old CVs, and allowing custom editing of CV models with AI-driven resume creation and elaboration.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/styles.css -o ./static/css/main.css --watch",
+    "build:css": "tailwindcss -i ./src/styles.css -o ./static/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
